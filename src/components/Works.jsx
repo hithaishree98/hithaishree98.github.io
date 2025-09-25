@@ -28,7 +28,7 @@ const ProjectCard = ({
         className="w-full sm:w-[360px]"
       >
         {/* Gradient Border Wrapper */}
-        <div className="p-[2px] rounded-2xl bg-gradient-to-r from-green-400 via-pink-500 to-purple-500 shadow-card">
+        <div className="p-[2px] rounded-2xl bg-gradient-to-r from-[#5596ab] via-[#f01dde] to-[#1b292e] shadow-card">
           {/* Card Content */}
           <div className="bg-tertiary rounded-2xl p-5 h-full">
             <div className="relative w-full h-[230px]">
@@ -53,7 +53,7 @@ const ProjectCard = ({
             </div>
 
             <div className="mt-5">
-              <h3 className="text-white font-bold text-[24px]">{name}</h3>
+              <h3 className="text-white-100 font-bold text-[24px]">{name}</h3>
               <p className="mt-2 text-secondary text-[14px]">{description}</p>
             </div>
 
@@ -101,4 +101,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

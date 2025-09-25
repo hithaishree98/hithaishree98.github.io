@@ -38,6 +38,7 @@ import siemens from "./company/siemens.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import profile from "./profile.jpg"
 import FaLinkedin from "./FaLinkedin.png";
 import FaEnvelope from "./FaEnvelope.png";
 import FaGithub from "./FaGithub.png"
@@ -48,7 +49,9 @@ import ppg from "./ppg.png";
 import blog from "./blog.png";
 import cassandra from "./cassandra.png";
 
+
 export {
+  profile,
   FaGithub,
   FaEnvelope,
   FaLinkedin,

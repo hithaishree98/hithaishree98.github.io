@@ -39,7 +39,8 @@ import {
   cassandra,
   resnet50,
   mindgrid,
-  ppg
+  ppg,
+  profile
 
 } from "../assets";
 
@@ -49,13 +50,13 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
   },
   {
-    id: "contact",
-    title: "Contact",
-  },
+    id:"projects",
+    title:"Projects"
+  }
 ];
 
 const services = [
@@ -138,42 +139,44 @@ const experiences = [
     title: "Software Engineer Intern",
     company_name: "Siemens",
     icon: siemens,
-    iconBg: "#383E56",
-    date: "Feb 2025 - Apr 2025 | May 2024 - Aug 2024",
+    iconBg: "#2c3537ff",
+    date: "Feb 2025 - Apr 2025 \n May 2024 - Aug 2024",
     points: [
-      "Developed a waveform selection feature using C# and .NET, enabling users to filter simulation outputs and reduce unnecessary storage usage.",
-      "Designed and tested RESTful APIs, using Postman to debug integrations; ensuring smooth communication across system components.",
-      "Implemented front-end features with ASP.NET, TypeScript, and Kendo UI enhancing simulation workflows and user interaction",
-      "Restructured Azure storage handling after analyzing simulation bottlenecks, which significantly improved data retrieval speed and overall responsiveness.",
-      "Ensured robust and maintainable code through high-coverage unit tests, SonarQube analysis, and continuous performance monitoring with Azure tools."
+      "Researched and benchmarked Azure storage strategies with a mentor, provisioning and testing multiple configurations, and implemented the optimal caching and scaling solution to accelerate simulation workflows.",
+      "Built a waveform-selection feature in PartQuest Explore that reduced output file size, lowering storage load and improving simulator turnaround time.",
+      "Developed and deployed full-stack simulation modules using ASP.NET Core, TypeScript, and Azure, enhancing scalability and reliability of engineering workflows.",
+      "Created REST APIs with strong unit-test coverage and applied SonarQube for code quality enforcement, ensuring robust and maintainable services.",
+      "Collaborated with mentors in Agile sprints, contributing to design discussions and debugging sessions to deliver production-ready solutions.",
+      "Documented design decisions, implementation strategies, and performance outcomes in Confluence to support future improvements and knowledge sharing."
     ],
   },
   {
-    title: "Software Engineer Fellow",
+    title: "Software Engineer Intern",
     company_name: "PathVu",
     icon: pathvu,
-    iconBg: "#383E56",
-    date: "Feb 2024 - Apr 2024",
+    iconBg:"#2c3537ff",
+    date: "Jun 2025 - Sept 2025 \n Sep 2024 - Nov 2024 ",
     points: [
-      "Developed a Python-based application using Tkinter and CloudCompare to evaluate LiDAR files and compute slope metrics (running, cross, transition, landing).",
-      "Designed a modular GUI with guided point selection, reference images, and automated CloudCompare launch to assist users with no prior LiDAR experience.",
-      "Evaluated alternative slope measurement tools and data workflows, helping select the most effective approach for data collection.",
-      "Participated in data collection and validation, aligning LiDAR-derived slopes with level gauge readings and achieving <3% error in most categories.",
-      "Documented usage workflows, performance metrics, and proposed recommendations for future automation using ML-based point selection and segmentation."
+      "Engineered and tested multiple 3D point-cloud capture workflows (stereo depth, IMU alignment, SDK integrations), to determine the most reliable approach for ramp analysis.",
+      "Built a desktop application for automated slope analysis from 3D data, ensuring accurate and consistent results for accessibility audits while reducing manual survey effort.",
+      "Optimized data processing pipelines with efficient coordinate transformations and export workflows, improving downstream usability and integration with compliance tools.",
+      "Collaborated closely with mentors and cross-functional teammates, reviewing results, discussing trade-offs, and aligning workflows with ADA standards to inform future development priorities.",
+      "Conducted proof-of-concept ML experiments to explore automation possibilities for curb-ramp classification, documenting procedures and proposing strategies for future ML-based segmentation."
     ],
   },
   {
     title: "Software Engineer",
     company_name: "Bosch",
     icon: bosch,
-    iconBg: "#383E56",
+    iconBg: "#2c3537ff",
     date: "Aug 2021 - Jul 2023",
     points: [
-      "Developed and maintained core software modules responsible for event-trigger logic, fault detection, and structured data handling in diagnostic applications.",
-      "Designed unit tests from the ground up(TDD approach) to validate module functionality and edge cases, boosting overall code reliability and maintainability.",
-      "Collaborated with cross-functional teams to identify, debug, and resolve software issues, supporting smooth integration across system components.",
-      "Participated in the full SDLC, from interpreting technical specifications through design, implementation, integration, and system testing—gaining deep experience in agile workflows.",
-      "Maintained compliance with industry standards by following guidelines, ensuring adherence to automotive quality and safety practices."
+      "Designed and maintained core software modules for event-driven processing, fault detection, and structured data handling, improving system reliability and responsiveness for production clients.",
+      "Built unit and integration tests following Test-Driven Development (TDD) practices, increasing code quality and maintainability.",
+      "Collaborated with cross-functional teams during development, debugging, and system testing, resolving critical software issues and ensuring smooth integration across components.",
+      "Participated in the full software development lifecycle (SDLC), from requirements analysis and design to implementation, deployment, and support, gaining end-to-end engineering experience.",
+      "Expanded automated test coverage and integrated it into CI/CD pipelines, accelerating release cycles and reducing post-release defects.",
+      "Ensured compliance with industry standards and best practices, demonstrating attention to quality, safety, and maintainable software design."
     ],
   },
 ];

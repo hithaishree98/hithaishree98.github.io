@@ -27,7 +27,7 @@ const Contact = () => {
               alt="Email"
               className="w-6 h-6 mr-4"
             />
-            <span className="text-white font-medium">Email Me</span>
+            <span className="text-white-100 font-medium">Email Me</span>
           </a>
 
           <a
