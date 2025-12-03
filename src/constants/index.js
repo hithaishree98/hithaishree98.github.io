@@ -40,7 +40,8 @@ import {
   resnet50,
   mindgrid,
   ppg,
-  profile
+  gallery,
+  chatbot
 
 } from "../assets";
 
@@ -160,8 +161,7 @@ const experiences = [
       "Engineered and tested multiple 3D point-cloud capture workflows (stereo depth, IMU alignment, SDK integrations), to determine the most reliable approach for ramp analysis.",
       "Built a desktop application for automated slope analysis from 3D data, ensuring accurate and consistent results for accessibility audits while reducing manual survey effort.",
       "Optimized data processing pipelines with efficient coordinate transformations and export workflows, improving downstream usability and integration with compliance tools.",
-      "Collaborated closely with mentors and cross-functional teammates, reviewing results, discussing trade-offs, and aligning workflows with ADA standards to inform future development priorities.",
-      "Conducted proof-of-concept ML experiments to explore automation possibilities for curb-ramp classification, documenting procedures and proposing strategies for future ML-based segmentation."
+      "Collaborated closely with mentors and cross-functional teammates, reviewing results, discussing trade-offs, and aligning workflows with ADA standards to inform future development priorities."
     ],
   },
   {
@@ -211,6 +211,60 @@ const testimonials = [
 const git_link = "https://github.com/hithaishree98"
 const projects = [
   {
+    name: "AI-Powered Job & Contact Sourcer",
+    description:
+      "An automated multi-agent pipeline, where parallel agents collaborate to source jobs, deduplicate data, and find recruiter contacts. Developed as a Capstone Project for the Google AI Agents Intensive Course",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google ADK",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Gemini 2.0 Flash",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SQLite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blog,
+    source_code_link: git_link,
+  },
+  {
+    name: "RAG Knowledge Assistant with Groq",
+    description:
+      "Built a RAG chatbot using FastAPI and Streamlit, powered by Groq and vector search, with a custom evaluation pipeline for semantic similarity and error rates.",
+    tags: [
+      {
+        name: "FastAPI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Groq",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Chatbot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RAG",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatbot,
+    source_code_link: git_link,
+  },
+  {
     name: "Roam & Relish Blogging Platform",
     description:
       "Designed a food & travel blog featuring user authentication, dynamic CRUD for posts/comments, and an admin dashboard with analytics.",
@@ -227,6 +281,20 @@ const projects = [
         name: "mongodb",
         color: "pink-text-gradient",
       },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      
+
     ],
     image: blog,
     source_code_link: git_link,
@@ -237,11 +305,19 @@ const projects = [
       "Built a multi-node Cassandra cluster to ingest and analyze real web-server logs and integrated Merkle tree layer verify query results.",
     tags: [
       {
-        name: "cassandra",
+        name: "Apache Cassandra",
         color: "blue-text-gradient",
       },
       {
-        name: "python",
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Distributed Systems",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Merkle Trees",
         color: "green-text-gradient",
       },
     ],
@@ -270,6 +346,40 @@ const projects = [
     source_code_link: git_link,
   },
   {
+    name: "ResNet50 Chest Cancer Detection",
+    description:
+      "Implemented a custom ResNet50 to classify chest CT scans into four medical conditions, regularization, dropout, and early stopping.",
+    tags: [
+      {
+        name: "tensorflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CNN",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resnet50,
+    source_code_link: git_link,
+  },
+  {
+    name: "NYC Airbnb Analysis Dashboard",
+    description:
+      "Interactive Tableau dashboard to explore NYC Airbnb listings analyzing bookings by room type, pricing trends and more features.",
+    tags: [
+      {
+        name: "tableau",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: airbnb,
+    source_code_link: git_link,
+  },
+  {
     name: "MindGrid: AI Tic Tac Showdown",
     description:
       "Python-based Tic Tac Toe game with an unbeatable AI powered by the Minimax algorithm, featuring a PyGame interface.",
@@ -291,37 +401,20 @@ const projects = [
     source_code_link: git_link,
   },
   {
-    name: "NYC Airbnb Analysis Dashboard",
+    name: "Interactive Art Gallery",
     description:
-      "Interactive Tableau dashboard to explore NYC Airbnb listings analyzing bookings by room type, pricing trends and more features.",
+      "An interactive 3D art gallery in Three.js with a circular painting carousel, reflective floor, and scroll/click navigation.",
     tags: [
       {
-        name: "tableau",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: airbnb,
-    source_code_link: git_link,
-  },
-  {
-    name: "ResNet50 Chest Cancer Detection",
-    description:
-      "Implemented a custom ResNet50 to classify chest CT scans into four medical conditions, regularization, dropout, and early stopping.",
-    tags: [
-      {
-        name: "tensorflow",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "python",
+        name: "Three.js",
         color: "green-text-gradient",
-      },
-      {
-        name: "CNN",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: resnet50,
+    image: gallery,
     source_code_link: git_link,
   },
 ];

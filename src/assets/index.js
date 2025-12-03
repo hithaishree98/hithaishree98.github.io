@@ -48,6 +48,8 @@ import resnet50 from "./resnet50.png";
 import ppg from "./ppg.png";
 import blog from "./blog.png";
 import cassandra from "./cassandra.png";
+import gallery from "./gallery.png";  
+import chatbot from "./chatbot.png";  
 
 
 export {
@@ -95,5 +97,6 @@ export {
   blog,
   mindgrid,
   resnet50,
-  ppg
-};
+  ppg,
+  gallery,
+chatbot};
