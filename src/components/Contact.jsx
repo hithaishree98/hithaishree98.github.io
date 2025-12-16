@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { FaEnvelope, FaGithub, FaLinkedin } from "../assets/";
 
 import { styles } from "../styles";
-import { PaperPlaneCanvas } from "../components/canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -64,7 +63,6 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <PaperPlaneCanvas />
       </motion.div>
     </div>
   );

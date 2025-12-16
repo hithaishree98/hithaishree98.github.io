@@ -25,7 +25,6 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
   FaGithub,
   FaEnvelope,
   FaLinkedin,
@@ -41,7 +40,8 @@ import {
   mindgrid,
   ppg,
   gallery,
-  chatbot
+  chatbot,
+  job_agent
 
 } from "../assets";
 
@@ -208,6 +208,30 @@ const testimonials = [
   },
 ];
 
+const certifications = [
+  {
+    title: "Machine Learning Specialization",
+    issuer: "DeepLearning.AI, Coursera",
+    image: job_agent,
+  },
+  {
+    title: "AWS Cloud Practitioner Essentials",
+    issuer: "Amazon Web Services",
+    image: job_agent,
+  },
+  {
+    title: "Programming for Everybody (Getting Started with Python)",
+    issuer: "University of Michigan, Coursera",
+    image: job_agent,
+  },
+  {
+    title: "Python Data Structures",
+    issuer: "University of Michigan, Coursera",
+    image: job_agent,
+  },
+  
+];
+
 const git_link = "https://github.com/hithaishree98"
 const projects = [
   {
@@ -232,7 +256,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: blog,
+    image: job_agent,
     source_code_link: git_link,
   },
   {
@@ -419,4 +443,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, certifications };

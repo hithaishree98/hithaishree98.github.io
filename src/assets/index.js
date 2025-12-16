@@ -33,10 +33,10 @@ import tesla from "./company/tesla.png";
 import pathvu from "./company/pathvu.png"
 import bosch from "./company/bosch.png"
 import siemens from "./company/siemens.png"
-
+import job_agent from "./job_agent.png"
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+
 import tripguide from "./tripguide.png";
 import profile from "./profile.jpg"
 import FaLinkedin from "./FaLinkedin.png";
@@ -83,7 +83,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
+  job_agent,
   tripguide,
   csharp,
   tensorflow,
